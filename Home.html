@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Master Of Cooking Applications</title>
+    <style>
+        body{
+            background-color: beige;
+        }
+       ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f7880a;
+  text-align: center; /* Center the list items horizontally */
+  border-radius: 25px; /* Rounded corners for dynamic island effect */
+  display: inline-block; /* Inline block to center the nav bar */
+  padding: 10px 20px; /* Padding for the dynamic island */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+
+li {
+   
+   float: left;
+}
+img{
+    margin-top: 0;
+    /* width: 100px;
+    height: 100px; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto; /* Center the image horizontally */
+    }
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    color:white;
+    border-radius:25px;
+  background-color: #111;
+}
+
+.nav-container {
+  position: sticky; /* Make the nav container fixed */
+  top: 0;
+  width: 100%; /* Ensure the nav container spans the full width */
+  text-align: center; /* Center the container */
+  margin-top: 0; /* Remove top margin */
+  z-index: 1000; /* Ensure the nav container is above other content */
+}
+
+.home-body {
+  margin-top: 100px; /* Add top margin to avoid content being hidden behind the fixed nav container */
+  position: relative;
+}
+.active{
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+
+    background-color: rgb(255, 0, 0);
+    color:white;;
+}
+p {
+  text-align:center;
+  margin: 0 auto; /* Center the text */
+  font-family: 'Arial', sans-serif; /* Set font family */
+  font-size: 16px; /* Set font size */
+  line-height: 1.5; /* Set line height */
+  color: #333; /* Set text color */
+  text-align: justify; /* Justify text */
+}
+
+
+
+    </style>
+</head>
+<body>
+    <img src="MCALOGOVEG.png" >
+    <div class="nav-container">
+      <ul>
+        <li><a class="active" href="Home.html">Home</a></li>
+        <li><a href="Foodmenu.html">Food Menu</a></li>
+        <li><a href="Venue.html">Venues</a></li>
+        <li><a href="Aboutus.html">About Us</a></li>
+      </ul>
+    </div>
+    <div class="home-body">
+            <p>MCA Caterers (Master Of Cooking Applications) was established as part of a assignment of a student studying MCA in MIT Kundapura
+        </p>
+    </div>
+</body>
+</html>

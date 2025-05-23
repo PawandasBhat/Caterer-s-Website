@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<link rel="stylesheet" href="food.css">
+    <!-- fonts style -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>MCA CATERERS</title>
+</head>
+
+<body>
+    <header>
+        <a href="#home" class="logo">MCA<span>Caterers</span></a>
+        <!-- <div class='bx bx-menu' id="menu-icon"></div> -->
+
+
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#foodmenu">Cuisines</a></li>
+            <li><a href="#review">Reviews</a></li>
+
+        </ul>
+        <div class="top-btn">
+            <a href="#about" class="nav-btn" onclick="openContactPopup()">Contact Us</a>
+
+            <!-- Popup Window -->
+            <div id="contactPopup" class="popup">
+                <div class="popup-content"></div>
+        </div>
+    </header>
+    <!-- home section code -->
+    <section class="home" id="home">
+        <div class="home-content" data-aos="zoom-in-down">
+            <h3>Host the Best</h3>
+            <h3><span style="color:red;" class="multiple-text"></span></h3>
+                <p>Masters of Cooking Applications(MCA) </p>
+             
+                <a href="#foodmenu" class="btn">Cuisines</a>
+        </div>
+        <div class="home-img"  data-aos="zoom-in">
+            <img src="MCALOGOVEG.png" alt="hero image">
+        </div>
+
+    </section>
+    <!-- section service code -->
+    <section class="foodmenu" id="foodmenu">
+
+
+        <h2 class="heading" data-aos="zoom-in-down">Cuisines we <span>Offer</span></h2>
+        <div class="services-content" data-aos="zoom-in-up">
+
+
+            <div class="row">
+                <img src="northind.png" alt="">
+                <h4>North Indian Cuisine</h4>
+            </div>
+
+            <div class="row">
+                <img src="JAIN.png" alt="">
+                <h4>Jain Cuisine (Satvik Food)</h4>
+            </div>
+
+            <div class="row">
+                <img src="southind.png" alt="">
+                <h4>South Indian Cuisine</h4>
+            </div>
+            <div class="row">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLScUrVQlM62TB6vI19PACN8KARYOhV1MV-0Vb0U7VAgsN45nvg/viewform?usp=header"><img src="custom.png" alt=""></a>
+                <h4>CUSTOM MENU</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section code -->
+    <section class="about" id="about">
+        <div class="about-img" data-aos="zoom-in-down">
+            <img src="Contact.png" alt="">
+        </div>
+        <div class="about-content" data-aos="zoom-in-up">
+            <h2 class="heading">Why Choose Us <span style="color:red;">?</span></h2>
+
+            <p>Our top chefs bring the taste of traditional Indian food to your event at an affordable cost. </p>
+            <p>From preparing the food to cleaning up after, everything will be taken care by us.</p>
+            <p>Our team of trained staff make sure that everthing runs smoothly and without any issues.</p>
+            <p>Serving Happy Tummies since 2024</p>
+        </div>
+    </section>
+  
+    <!-- review section code -->
+    <section class="review" id="review">
+        <div class="review-box">
+            <h2 class="heading" data-aos="zoom-in-down">Client <span>Review</span></h2>
+
+            <div class="wrapper" data-aos="zoom-in-up">
+                <div class="review-item">
+                    <img src="IMG_5883.jpeg" alt="">
+                    <h2>Nandesh</h2>
+                    <div class="rating">
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                    </div>
+                    <p>You guys made my promotion banquet a feast of the kings..</p>
+                </div>
+                <div class="review-item">
+                    <img src="IMG_5887.jpeg" alt="">
+                    <h2>Akash</h2>
+                    <div class="rating">
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                       
+                    </div>
+                    <p>The food you guys made at my brothers birthday party is the talk of the family now.Thank you for making it memorable..</p>
+                </div>
+                <div class="review-item">
+                    <img src="PDP_6522.JPG" alt="">
+                    <h2>Pawandas</h2>
+                    <div class="rating">
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                    </div>
+                    <p>Good Food, Hospitality 10/10, Crowd Management 9.5/10.</p>
+                </div>
+            </div>
+    </section>
+
+    <!-- footer section code  -->
+    <footer class="footer">
+        <div class="social">
+            <a href="#"><i class='bx bxl-facebook-square'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+        </div>
+        <p class="copyright">
+            &copy; MCACaterers 2024- All Rights Reserved
+        </p>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset:300,
+        duration:1400
+      });
+    </script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script> 
+    <script src="Food.js"></script>
+
+    <script src="Food.js"></script>
+    <script>
+      var typed = new Typed('.multiple-text', {
+        strings: ["Banquets","Parties","Weddings","Events"],
+        typeSpeed: 50,
+        backSpeed: 50,
+        backDelay: 1000,
+        loop: true
+      });
+    </script>
+
+</html>
+
+
